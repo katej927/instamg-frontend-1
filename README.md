@@ -94,4 +94,4 @@ instagram을 모티브로 하여 구현한 팀 프로젝트
 -  Modal을 이용한 DM상대방 추가 기능 구현
 
 ## Project Result
-[![video](https://i.ytimg.com/an_webp/HZbOxALEh_c/mqdefault_6s.webp?du=3000&sqp=CP3c4IIG&rs=AOn4CLDD69LkCfxmmtYVY_cf_1TuB4jbbg)](https://www.youtube.com/watch?v=HYAZYJtuMZ8)
+[![video](https://i.ytimg.com/an_webp/HZbOxALEh_c/mqdefault_6s.webp?du=3000&sqp=CP3c4IIG&rs=AOn4CLDD69LkCfxmmtYVY_cf_1TuB4jbbg)](https://www.youtube.com/watch?v=XFBozjyrv88&t=22s)
