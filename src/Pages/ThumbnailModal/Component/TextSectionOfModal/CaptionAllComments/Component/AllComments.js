@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import CommentCaption from "../../../../../PersonalFeed/Component/ReUsing/CommentCaption/CommentCaption";
 import Recomments from "./Recomments";
-import { FilterDatas } from "../../../../../PersonalFeed/Component/ReUsing/FilterDatas";
 import { PlusCircle } from "@styled-icons/feather/PlusCircle";
 import { LIKE_COMMENT } from "../../../../../../Config";
 

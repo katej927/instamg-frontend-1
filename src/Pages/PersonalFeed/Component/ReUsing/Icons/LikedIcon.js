@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import { Heart } from "@styled-icons/bootstrap/Heart";
 import { Heart } from "@styled-icons/octicons/Heart";
-// import { HeartFill } from "@styled-icons/bootstrap/HeartFill";
 import { HeartFill } from "@styled-icons/octicons/HeartFill";
 
 /**

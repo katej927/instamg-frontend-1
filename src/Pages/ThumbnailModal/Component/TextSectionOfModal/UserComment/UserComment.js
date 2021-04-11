@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-// import axios from "axios";
 import { Smile } from "@styled-icons/feather/Smile";
 import { COMMENT_POST } from "../../../../../Config";
 

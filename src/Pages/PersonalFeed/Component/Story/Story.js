@@ -19,8 +19,6 @@ export default function Story(props) {
       .then((res) => setStoriesData(res.profile_story));
   }, []);
 
-  console.log("storiesData", storiesData);
-
   return (
     <SlideControlDiv show={storiesData?.length > 0}>
       <StoryWrapper>

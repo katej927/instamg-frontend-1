@@ -9,12 +9,7 @@ export default function Posts(props) {
   const [postData, setPostData] = useState();
   const [offset, setOffset] = useState(1);
   const [loadingShow, setLoadingShow] = useState(true);
-  //
-  const [loading, setLoading] = useState(true);
-  const [postAllData, setPostAllData] = useState();
-  const [postsShow, setPostsShow] = useState();
-  const [postPaging, setPostPaging] = useState();
-  //
+
   const target = useRef();
   const { tmpId } = props;
 

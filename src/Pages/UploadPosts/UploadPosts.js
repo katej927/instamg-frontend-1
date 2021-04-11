@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import styled from "styled-components";
-import axios from "axios";
 import { UPLOAD_POSTS } from "../../Config";
-import { SERVER } from "../../Config";
 
 export default function UploadPosts() {
   const [mediaData, setMediaData] = useState({
@@ -18,13 +16,6 @@ export default function UploadPosts() {
 
   useEffect(() => {
     setUserId(location.state.user_id);
-
-    // 게시물 수정
-    // setPostContent(location.state.content);
-    // setMediaData({ file: location.state.file });
-    // location.state.file.map((eachfile) => {
-    //   setMediaData({ previewURL: `${SERVER}/${eachfile.path}` });
-    // });
   }, [location]);
 
   const handleMediaInput = (e) => {
@@ -45,8 +36,6 @@ export default function UploadPosts() {
       reader.readAsDataURL(file);
     }
   };
-
-  console.log("setMediaData", setMediaData);
 
   let profilePreview = null;
   if (mediaData?.file.length > 0) {

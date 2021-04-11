@@ -1,5 +1,4 @@
 export function TimeFormat(postingTime, currentTime) {
-  // console.log("currentTime", currentTime);
   // 포스팅 시간 정보
   const setDate = new Date(postingTime);
   const setDateYear = setDate.getFullYear();
