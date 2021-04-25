@@ -7,7 +7,6 @@ import { LIKE_COMMENT } from "../../../../../../Config";
 
 export default function AllComments(props) {
   const [showComments, setShowComments] = useState([]);
-  // const [likeStatus, setLikeStatus] = useState();
   const [showIdx, setShowIdx] = useState(12);
 
   const {
@@ -35,10 +34,6 @@ export default function AllComments(props) {
   return (
     <AllCommentsWrapper>
       {showComments?.map((comment, idx) => {
-        // useEffect(() => {
-        //   setLikeStatus(comment.is_liked);
-        // }, [comment.is_liked]);
-
         const clickHeart = (commentId) => {
           fetch(`${LIKE_COMMENT}/${commentId}`, {
             method: "POST",
@@ -46,12 +41,6 @@ export default function AllComments(props) {
               Authorization: localStorage.getItem("token"),
             },
           });
-          // .then((res) => res.json())
-          // .then((res) => {
-          //   if (res === "SUCCESS") {
-          //     setLikeStatus(!likeStatus);
-          //   }
-          // });
         };
 
         return (
@@ -87,7 +76,6 @@ export default function AllComments(props) {
 }
 
 const AllCommentsWrapper = styled.section`
-  /* border: 1px solid green; */
 `;
 
 const OneCommentWrapper = styled.div`
