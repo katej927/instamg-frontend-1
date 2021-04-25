@@ -22,7 +22,6 @@ export default function CaptionAllComments(props) {
 }
 
 const CaptionAllCommentsWrapper = styled.section`
-  /* border: 1px solid red; */
   height: 350px; // 추후 수정
   overflow-x: hidden; // 추후 수정
   -ms-overflow-style: none; // IE에서 스크롤바 감춤
@@ -32,6 +31,4 @@ const CaptionAllCommentsWrapper = styled.section`
 `;
 
 const UserPostCommentWrapper = styled.div`
-  /* border: 1px solid green; */
-  /* text-align: center; */
 `;

@@ -41,17 +41,13 @@ export default function PersonalFeed(props) {
 }
 
 const PersonalFeedWrapper = styled.div`
-  /* border: 1px solid red; */
   width: 100%;
   background-color: rgba(var(--b3f, 250, 250, 250), 1);
 `;
 
 const Nav = styled.nav`
-  /* border: 1px solid black; */
   height: 54px;
 `;
 
 const Main = styled.main`
-  /* border: 1px solid yellow; */
-  // padding: 30px 86.5px 0px;
 `;

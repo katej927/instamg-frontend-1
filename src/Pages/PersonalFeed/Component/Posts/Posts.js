@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import styled from "styled-components";
 import Thumbnail from "./Thumbnail";
-import FlexSet from "../../../../Styles/Common";
 import { FEED_THUMBNAILS } from "../../../../Config";
 
 export default function Posts(props) {
@@ -65,7 +64,6 @@ export default function Posts(props) {
       </MenuTap>
       <Thumbnail
         postData={postData}
-        // forwardedRef={target}
       />
       <LoadingAnimation
         show={postData?.length && loadingShow}
@@ -73,7 +71,6 @@ export default function Posts(props) {
         src="https://blog.kakaocdn.net/dn/bbG1RK/btqv0yFV1hL/VrPRCiDEklhGYyfut4KqJ1/loading.gif?attach=1&knm=img.gif"
         alt="로딩 중 입니다."
       />
-      {/* <ShowMoreBtn onClick={showMoreBtn}>더보기</ShowMoreBtn> */}
     </PostsWrapper>
   );
 }
@@ -83,7 +80,6 @@ const MENUTAPS_PERSONAL_FEED = ["게시물", "태그됨"];
 
 // Styled Component
 const PostsWrapper = styled.article`
-  /* border: 1px solid pink; */
   width: 935px;
   margin: 0 auto;
   display: flex;
@@ -99,7 +95,6 @@ const MenuTap = styled.section`
 `;
 
 const Btns = styled.button`
-  /* border: 1px solid rgba(var(--i1d, 38, 38, 38), 1); */
   border-top: 1px solid rgba(var(--i1d, 38, 38, 38), 1);
   height: 100%;
   margin-right: 60px;

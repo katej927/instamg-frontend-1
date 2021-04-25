@@ -25,7 +25,6 @@ export default function EachStory(props) {
 }
 
 const EachStoryWrapper = styled.div`
-  /* background-color: blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +36,6 @@ const EachStoryWrapper = styled.div`
 `;
 
 const StoryImgLine = styled.div`
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +52,6 @@ const StoryImg = styled.img`
 `;
 
 const StoryTitle = styled.div`
-  /* background-color: pink; */
   width: 85px;
   text-align: center;
   font-size: 14px;

@@ -13,6 +13,5 @@ export default function DotBtn(props) {
 }
 
 const DotBtnWrapper = styled.div`
-  /* border: 1px solid red; */
   cursor: pointer;
 `;

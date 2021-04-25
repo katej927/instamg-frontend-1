@@ -31,6 +31,5 @@ export default function BundleOfDotBtnModal(props) {
 }
 
 const BundleOfDotBtnModalWrapper = styled.div`
-  /* border: 1px solid black; */
   display: "inline-table";
 `;
