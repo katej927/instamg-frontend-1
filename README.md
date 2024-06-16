@@ -1,5 +1,5 @@
 # Instamg Team Project </br>
-
+[![Instamg_My Part](https://github.com/katej927/while-you-were-playing-lol/assets/69146527/950669c1-2891-4563-be4b-36e864682838.png)](https://www.youtube.com/watch?v=XFBozjyrv88&t=1s)
 ## 1️⃣ 인턴십 개요
 
 - 에이블 스토어
@@ -50,7 +50,7 @@
 
 ✅ 팀원분들이 구현하신 것들은 생략했습니다.
 
-✅ 구현한 코드 확인은 주황색 글자 또는 (클릭) 글자를 눌러주세요.
+✅ 구현한 코드 확인은 파란색 글자 또는 (클릭) 글자를 눌러주세요.
 
 - [infinite scroll 구현](https://github.com/katej927/instamg-frontend-1/blob/main/src/Pages/PersonalFeed/Component/Posts/Posts.js) : `IntersectionObserver`, `useRef`, `async/await`, `setTimeout` 등 활용
 - (대)댓글 [C.R.U.D](https://github.com/katej927/instamg-frontend-1/blob/main/src/Pages/ThumbnailModal/Component/TextSectionOfModal/UserComment/UserComment.js) 및 [개수 필터링](https://github.com/katej927/instamg-frontend-1/blob/main/src/Pages/ThumbnailModal/Component/TextSectionOfModal/CaptionAllComments/Component/Recomments.js) : `filter` 활용
